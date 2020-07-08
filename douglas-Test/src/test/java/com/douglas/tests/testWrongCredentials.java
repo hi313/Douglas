@@ -2,6 +2,8 @@
 
 // "testWrongCredentials" --> As a user I would like to receive an error message, if I enter wrong credentials.
 
+// Wrong credentials can also be tested with help of Excel sheet. But I did it in simpler way.
+
 package com.douglas.tests;
 
 import java.util.concurrent.TimeUnit;
