@@ -1,3 +1,13 @@
+// Class Definition : 
+
+// "testResetPassword" --> As a user, I would like to be able to reset my password if I forget my credentials.
+
+// Selenium can't handle captcha. While website using captcha for the same reason so no one can automate their website using any robots. 
+// There is some 3rd party libraries are present who claim that they can automate captcha too but I never tried and heard that they are not efficient too. 
+// Even the tesseract library does not work 100%.
+
+// Solution : developers can provide special environment where they bypass that captcha features.
+
 package com.douglas.tests;
 
 import java.util.concurrent.TimeUnit;
