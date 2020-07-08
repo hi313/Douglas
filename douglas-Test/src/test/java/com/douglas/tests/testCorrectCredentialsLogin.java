@@ -1,3 +1,7 @@
+// Class Definition : 
+
+// "testCorrectCredentialsLogin" --> As an user with correct credentials I would like to be able to login to the webshop.
+
 package com.douglas.tests;
 
 import java.util.concurrent.TimeUnit;
@@ -31,7 +35,7 @@ public class testCorrectCredentialsLogin {
 		loginpage.clickOnLoginButton();
 		loginpage.clickOnClosePopUp();
 		Thread.sleep(2000);
-		String expectedTitle = "Parfümerie Douglas - Parfüm, Kosmetik, Pflege, Make-up, Düfte und Beauty-Trends bei douglas.de";
+		String expectedTitle = "ParfÃ¼merie Douglas - ParfÃ¼m, Kosmetik, Pflege, Make-up, DÃ¼fte und Beauty-Trends bei douglas.de";
 		String actualTitle = driver.getTitle();
 		Assert.assertEquals(actualTitle, expectedTitle);
 		Thread.sleep(1000);
